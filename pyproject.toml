@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SWISS_RE_ASSIGNMENT"
+version = "1.0.0"
+description = "A CLI tool for analyzing log files."
+authors = [{name = "Aman Garg", email = "aman_garg1@epam.com"}]
+dependencies = []
+scripts = {"SWISS_RE_ASSIGNMENT" = "log_analyzer.cli:main"}
+python = ">=3.11"
